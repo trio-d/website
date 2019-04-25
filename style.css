@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #C9DBE9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+main {
+  width: 700px;
+  min-height: 600px;
+  position: relative;
+  background-color: #80A5C0;
+  margin: 40px 0 20px;
+  padding: 35px;
+  background-image: url(img/corridor.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.slogan {
+  margin: 40px 0 20px;
+}
+.address {
+  padding: 20px 25px;
+  background-color: #ECD900;
+  display: inline-block;
+  min-width: 250px;
+  z-index: 2;
+  position: relative;
+}
+.address p {
+  margin: 10px 0;
+  font-size: 15px;
+}
+.services .deratizacia {
+  position: absolute;
+  color: #FFF;
+  left: 446px;
+  top: 296px;
+  z-index: 3;
+}
+.services .dezinfekcia {
+  position: absolute;
+  color: #FFF;
+  left: 570px;
+  top: 319px;
+  z-index: 3;
+}
+.services .dezinsekcia {
+  position: absolute;
+  color: #FFF;
+  left: 490px;
+  top: 406px;
+  z-index: 3;
+}
+.rat {
+  position: absolute;
+  left: -17px;
+  bottom: 0;
+  z-index: 1;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  font-size: 14px;
+  color: #FFF;
+  text-align: right;
+  padding: 20px 25px;
+}
